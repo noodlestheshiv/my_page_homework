@@ -122,3 +122,15 @@ p {
 a:-webkit-any-link {
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
+}
